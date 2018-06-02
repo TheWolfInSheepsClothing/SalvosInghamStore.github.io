@@ -1,0 +1,144 @@
+body {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+}
+
+.header {
+	color: white;
+	width: 100%;
+	text-align: center;
+	border: 5px solid #f9f9f9;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 25% ;
+	Margin-right: 25%;
+    border-radius: 10px;
+	padding: 15px;
+	background-color: rgb(214,19,48);
+}
+
+#Maintitle {
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+}
+
+#semititle {
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+}
+
+.top {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(214,19,48);
+}
+
+.menu {
+	color: white;
+	width: 12.5%;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	border: 5px solid #f9f9f9;
+	background-color: rgb(214,19,48);
+	float: left;
+	height: 50px;
+}
+
+.leftmost {
+	border-top-left-radius: 5px;
+}
+
+.rightmost {
+	border-bottom-right-radius: 5px;
+}
+
+.menu:hover {
+	background-color: rgb(250,19,48);
+}
+
+.writting {
+	width: 100%;
+	text-align: center;
+	border: 5px solid #f9f9f9;
+	margin-top: 20px;
+	margin-left: 25% ;
+	Margin-right: 25%;
+    border-radius: 10px;
+	height: 500%;
+	background-color: rgb(214,19,48);
+	color: white;
+}
+
+#logo {
+	width: 10%;
+	height: auto;
+	margin-top: 25px;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+.Menutext {
+	padding: 10px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#hhhead {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 30px;
+}
+
+.righttag {
+	float: left;
+	width: 50%;
+}
+
+.lefttag {
+	float: left;
+	width: 50%;
+	text-align: left;
+	padding: 4px;
+}
+
+@media only screen and (max-width: 991px) {
+    .top4 {
+        float: none;
+		background-color: blue;
+    }
+	.menu {
+		width: 25%;
+	}
+		.one {
+	border-top-right-radius: 5px;
+}
+
+.two {
+	border-bottom-left-radius: 5px;
+}
+}
+
+@media only screen and (min-width: 990px) {
+	.yeee {
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+	overflow: hidden;
+	margin-top: 0;
+    padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+	.leftmost {
+	border-bottom-left-radius: 5px;
+}
+
+.rightmost {
+	border-top-right-radius: 5px;
+}
+}
